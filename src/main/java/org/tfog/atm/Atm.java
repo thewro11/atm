@@ -108,7 +108,7 @@ public final class Atm {
                         atm.currentBankAccount.getBalance()
                     );
                     String line = scanner.nextLine();
-                    if (line.equals("q")) {
+                    if (line.equals("c")) {
                         System.out.println("Transaction canceled.");
                         break;
                     }
